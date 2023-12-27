@@ -1,0 +1,16 @@
+#include <iostream>
+// notes from a Codecaddemy course
+// learning how to gather input 
+
+int main() {
+ 
+double stones;
+double pounds;
+
+std::cout << "What is your weight in pounds? ";
+std::cin >> pounds;
+
+stones = pounds/14;
+
+std::cout << "You weigh " << stones << " stones \n";
+}
